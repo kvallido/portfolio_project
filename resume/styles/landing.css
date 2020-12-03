@@ -1,0 +1,79 @@
+body {
+    background-color: rgba(176,134,142,.5);
+    /*background-image: url('../images/bg.png');*/
+    color: rgb(91,72,84);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+}
+
+h2 {
+    margin-top: 2%;
+}
+
+.landing-self {
+    margin-top: 25%;
+}
+
+.landing-greeting {
+    text-align: left;
+}
+
+img.contact-icon {
+    width: 50px;
+    padding: 2px;
+    margin: 2px 20px;
+}
+
+img#self {
+    width: 100%;
+}
+
+img#self-mobile {
+    display: none;
+}
+
+ .btn {
+     background-color: rgb(91,72,84);
+     border: none;
+     color: white;
+     padding: 16px 32px;
+     text-align: center;
+     font-size: 16px;
+     margin: 4px 2px;
+     transition: 0.3s;
+ }
+
+.btn:hover {
+    background-color: rgba(255,255,255,.6);
+    color: rgb(91,72,84);
+}
+
+a:hover {
+    color: rgba(255,255,255,.6);
+}
+#contact-icons {
+    margin-top: 5%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* devices 1200px and below) */
+@media only screen and (max-width: 1201px) {
+    img#self-mobile {
+        display: block;
+        width: 100px;
+    }
+
+    #landing-self {
+        display: none;
+    }
+
+    .landing-greeting {
+        text-align: center;
+    }
+}
