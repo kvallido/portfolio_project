@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(228, 214, 213);
+    color: rgb(61,48,56);
+    /*     url('images/bg.png') fixed; */
+}
+
+.jumbotron {
+    background: rgb(199, 177, 182) url('/guestbook/images/bg.jpg') fixed center no-repeat;
+    background-size: cover;
+    padding: 5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h5 {
+    text-align: center;
+}
+
+fieldset, #submission {
+    background: rgba(255,255,255,.5);
+    padding: 2%;
+}
+
+legend {
+    color: rgb(133,115,131);
+    text-shadow: 2px 2px 4px rgb(165 165 165);
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+table {
+    color: rgb(61,48,56);
+}
+
+#title {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(91,72,84);
+}
+
+
+button, #button {
+    background-color: rgb(177,135,143);
+    font-weight: lighter;
+    color: white;
+}
+
+
+/* If the screen size is 509px wide or less */
+@media screen and (max-width: 509px) {
+    #title {
+        font-size: 2.5rem;
+    }
+}
+
+/* If the screen size is 407px wide or less */
+@media screen and (max-width: 407px) {
+    .jumbotron {
+        background: rgb(199, 177, 182) url('/guestbook/images/bg.jpg') fixed center no-repeat;
+        background-size: cover;
+        padding: 1em;
+    }
+}

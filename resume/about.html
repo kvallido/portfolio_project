@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+        <!-- NAV BAR -->
+        <div class="container-fluid p-0" id="main">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(176,134,142,.5)">
+                <a class="navbar-brand" href="http://kvallido.greenriverdev.com/">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/guestbook/index.html">Guestbook</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+    <!-- JUMBOTRON -->
+    <div class="row">
+        <div class="container-fluid">
+            <div class="jumbotron bg-cover" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.1) 90%), url(images/bg1.png)">
+                <div class="container mt-5">
+                    <h1>Kimberly Vallido</h1>
+                    <h2>Aspiring Software Developer</h2>
+                    <hr class="my-4">
+                    <div class="d-flex justify-content-center">
+                        <a href="tel:123-456-7890"><img src="images/phone.png" class="contact-icon img-fluid" alt="phone number"></a><a href="mailto:kvallido@mail.greenriver.edu"><img src="images/email.png" class="contact-icon img-fluid" alt="email address"></a><a href="https://www.linkedin.com/in/kvallido/" target="_blank"><img src="images/linkedin.png" class="contact-icon img-fluid" alt="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT ME -->
+    <div class="row">
+        <div class="container-fluid justify-content-center">
+            <div class="row">
+                <div class="col-lg-9">
+                    <section id="about">
+                        <h1 class="display-5">About Me</h1>
+                        <p>
+                            Hi there! My name is Kimberly Vallido. I am a first generation Filipino American software
+                            development student who loves music, video games and hanging out with my cat. A few years of working with code has shown me just how much I enjoy learning new ways to
+                            solve problems quickly and efficiently. I look forward to having the opportunity to
+                            challenge myself, apply my current knowledge, and learn even more.</p>
+
+                        <p>
+                            In my early years of internet browsing, I was fascinated with the variety in every website’s
+                            appearance. This fascination led to teaching myself how to design and code layouts for user
+                            profiles, blogs, and social media at a very young age. As I got older and more things
+                            started shifting from desktop to mobile, I was in awe of convenient mobile website designs
+                            and the various apps I could download. My amazement seamlessly transformed into
+                            inspiration and motivated me to successfully pursue a BAS in Software Development. </p>
+                        <p> In my pursuit I have learned several languages such as Java, SQL, PHP, JavaScript, HTML and
+                            CSS. Most of my experience is with front end web development using HTML/CSS, Bootstrap,
+                            Javascript, PHP and SQL. I've also begun to learn the fundamentals of Java and created console programs,
+                            and look forward to creating something even larger, alone or with a team! </p>
+                        <p>
+                            Some of the languages I've learned include:</p>
+                    </section>
+                    <div class="row justify-content-around">
+                        <div class="col-sm-3">
+                            <h3>Programming:</h3>
+                            <ul class="skills">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-3">
+                            <h3>Web development:</h3>
+                            <ul class="skills">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>BootStrap 4</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- PHOTO OF SELF -->
+                <div class="col-lg-3 my-auto" id="photo">
+                    <img src="images/IMG_0010.png" id="self" class="rounded-circle img-fluid float-left" alt="photo of myself">
+                </div>
+            </div>
+
+            <!-- CONTACT INFO/FOOTER -->
+            <div class="row justify-content-center">
+                <div class="container-fluid mt-5 p-5" id="contact-info">
+                    <a href="tel:123-456-7890" class="contact-link">(123) 456-7890</a> |
+                    <a href="mailto:kvallido@mail.greenriver.edu" class="contact-link">vallido.kimberly@gmail.com</a> |
+                    <a href="https://www.linkedin.com/in/kvallido/" class="contact-link" target="_blank">www.linkedin.com/in/kvallido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
